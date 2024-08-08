@@ -1,0 +1,39 @@
+{
+    "project":[
+        {
+            "id": 0,
+            "title": "2024 Oscars Search",
+            "image": "../assets/images/oscars.png",
+            "dates": "Built: 01/29/24 - 02/07/24",
+            "liveApp": "https://n-mcclure.github.io/Project_Files/Oscars_Who&What/index.html"
+        },
+        {
+            "id": 1,
+            "title": "Currency Converter",
+            "image": "../assets/images/currency.png",
+            "dates": "Built: 04/29/24 - 05/01/24",
+            "liveApp": "https://n-mcclure.github.io/Project_Files/CurrencyConverter/index.html"
+        },
+        {
+            "id": 2,
+            "title": "Image Background Remover",
+            "image": "../assets/images/remover.png",
+            "dates": "Built: 05/05/24 - 05/13/24",
+            "liveApp": "https://n-mcclure.github.io/Project_Files/Image_BG-Remover/index.html"
+        },
+        {
+            "id": 3,
+            "title": "Responsive Portfolio (V.3)",
+            "image": "../assets/images/portfolio.png",
+            "dates": "Built: 02/28/24 - 03/01/24",
+            "liveApp": "https://n-mcclure.github.io/"
+        },
+        {
+            "id": 4,
+            "title": "File-Saver",
+            "image": "../assets/images/filesaver.png",
+            "dates": "Built: 01/22/24 - 01/28/24",
+            "liveApp": "https://n-mcclure.github.io/Project_Files/FileSaver_MK1/index.html"
+        }
+    ]
+}

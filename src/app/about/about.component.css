@@ -1,0 +1,17 @@
+p{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+a{
+    color: rgb(0, 119, 255);
+}
+
+a:hover{
+    color: white;
+}
+
+strong{
+    color: rgb(0, 119, 255);
+}

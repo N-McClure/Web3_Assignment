@@ -1,0 +1,28 @@
+<!-- Div for all the projects: -->
+<div class="projects">
+    <mat-list *ngFor="let x of projArray">
+
+            <!-- Material Card for Projects-->
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>{{x.title}}</mat-card-title>
+                    <button mat-icon-button (click)="projectInfo(x.id)">
+                        <span class="material-icons">contact_support</span>
+                    </button>
+                </mat-card-header>
+                <mat-card-content>
+                    <a target="_blank" href="{{x.liveApp}}">
+                        <img mat-card-image src="{{x.image}}" alt="">
+                    </a>
+                </mat-card-content>
+                <br>
+                <mat-card-actions>
+                    <button mat-icon-button color="white" id="{{x.id}}" class="iconsize" (click)="like(x.id)">
+                        <mat-icon>favorite</mat-icon>
+                    </button>
+                    <mat-card-subtitle>{{x.dates}}</mat-card-subtitle>
+                </mat-card-actions>
+            </mat-card>
+
+    </mat-list>
+</div>

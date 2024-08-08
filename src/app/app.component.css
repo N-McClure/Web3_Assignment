@@ -1,0 +1,41 @@
+*{
+    background-color: black;
+}
+
+.wrapping{
+    max-width: 2000px;
+    margin: auto;
+    padding: 1rem 2rem;
+}
+
+label{
+    color: white;
+}
+
+/*Light Mode Styling: */
+.light-mode{
+    background-color: lightgrey;
+    color: black;
+}
+
+/*Dark Mode Styling: */
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+/* Media Queries to make the Site Responsive: */
+@media(width < 900px){
+    app-header{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    app-projects{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    app-footer{
+        grid-template-columns: 1fr 200px;
+    }
+    app-contact{
+        grid-template-columns: 1fr 200px;
+    }
+}
